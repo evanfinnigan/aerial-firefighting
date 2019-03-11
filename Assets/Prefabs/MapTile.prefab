@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1477881683019008}
+  m_IsPrefabParent: 1
+--- !u!1 &1477881683019008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4950665985152938}
+  - component: {fileID: 114596703707438318}
+  m_Layer: 0
+  m_Name: MapTile
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4950665985152938
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1477881683019008}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.70710677}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90.00001, y: 0, z: 0}
+--- !u!114 &114596703707438318
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1477881683019008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb7ff0dbc28d8734f88211419ddce3c3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileType: 0
+  tileState: 0
+  treePrefabs:
+  - {fileID: 133486, guid: d77236787a13ca14d86f434d4a4a4cb6, type: 2}
+  - {fileID: 188242, guid: 7572b8494dca61844ae502ca4d47915f, type: 2}
+  - {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 2}
+  - {fileID: 170736, guid: c8f241d1151c5a14dbac88fd4bea1d93, type: 2}
+  - {fileID: 164484, guid: d59133509f424e849b6d63b76ed0cad2, type: 2}
+  deadTreePrefab: {fileID: 102184, guid: d49634e20277dae4bb3439bfd5262bb7, type: 2}
+  housePrefabs:
+  - {fileID: 1000014201024826, guid: 186f25b0163c80f42b4a86c690793452, type: 2}
+  - {fileID: 1000011086151546, guid: f268d41a635271b499c19e7154a03321, type: 2}
+  - {fileID: 1000011868398520, guid: fb28c56cbe98b9944b86dc4658a34987, type: 2}
+  burntHousePrefab: {fileID: 1487467641709792, guid: 2d16b1e4a37efdd4d99ceed2d1556c9b,
+    type: 2}
+  color: {r: 0, g: 0, b: 0, a: 0}
+  health: 0
+  neighbors:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  smokeParticlesPrefab: {fileID: 1487467641709792, guid: 2d16b1e4a37efdd4d99ceed2d1556c9b,
+    type: 2}
+  fireParticlesPrefab: {fileID: 1276750284815582, guid: e506d41f081f3744e8091ec33593c3eb,
+    type: 2}
